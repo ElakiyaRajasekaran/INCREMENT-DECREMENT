@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Counter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="counter">
+            <div class="display" id="counterDisplay">0</div>
+            <div class="controls">
+                <button class="btn" onclick="decrement()">-</button>
+                <button class="btn" onclick="increment()">+</button>
+                <button class="btn" onclick="reset()">Reset</button>
+                <button class="btn" onclick="saveCount()">Save</button>
+            </div>
+        </div>
+        <div class="saved-counts">
+            <h2>Saved Counts</h2>
+            <ul id="savedCountsList"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
